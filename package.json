@@ -1,0 +1,23 @@
+{
+  "name": "cyber-catamounts-website",
+  "version": "1.0.0",
+  "description": "CyberCatamounts club website developed by the members of the WebDev team.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberCatamounts/cyber-catamounts-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyberCatamounts/cyber-catamounts-website/issues"
+  },
+  "homepage": "https://github.com/CyberCatamounts/cyber-catamounts-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
