@@ -19,8 +19,12 @@ app.use('/assets', express.static(path + '/assets'))
 
 // this is telling the website WHERE all of our "asset" files are. Asset files include CSS for styling, JS for Bootstrap to make it pretty, and images.
   
-router.get('/',function(req, res){
+router.get('/home',function(req, res){
   res.sendFile(path + '/pages/index.html');
+});
+
+router.get('/',function(req, res){
+  res.sendFile(path + '/pages/terminal.html');
 });
 
 // The logic here: when someone navigates to www.cybercatamounts.herokuapp.com, the website will return the content on the "index.html" page.
