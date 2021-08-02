@@ -906,19 +906,47 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  font-family:'Georgia','serif';
+  background-image: url('/assets/img/aboutpage_back.webp');
+}
+.about .container{
+  height:750px;
+  width: 850px;
+  padding: 70px ;
+  background-color:black;
+  text-align:left;
+}
+.about h5{
+  font-family:'Georgia','serif';
+  text-align:left;
+  color:rgb(255, 255, 255);
+}
 .about h3 {
-  font-weight: 400;
-  font-size: 26px;
+  font-family:'Georgia','serif';
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.about p {
+  color: white;
+  font-size: 12px;
+  text-align: left;
 }
 
 .about ul {
   list-style: none;
   padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
 }
 
 .about ul li {
   padding-bottom: 10px;
 }
+
 
 .about ul i {
   font-size: 20px;
@@ -928,6 +956,24 @@ section {
 
 .about p:last-child {
   margin-bottom: 0;
+}
+
+.about_btn {
+  text-align:left;
+  font-family:'Georgia','serif';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin-right: 50px;
+  color: rgb(255, 255, 255);
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #68A4C4;
 }
 
 /*--------------------------------------------------------------
